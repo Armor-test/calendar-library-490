@@ -1,0 +1,38 @@
+# CODEOWNERS file for calendar-library-490
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-automation @Armor-test/grp-ui @Armor-test/squad-database
+
+# Directory ownership
+/dist/ @Armor-test/grp-storage @Armor-test/unit-cloud @Armor-test/squad-product
+/components/ @Armor-test/dept-automation @Armor-test/unit-cloud @Armor-test/squad-database
+/utils/ @Armor-test/team-governance @Armor-test/dept-logging
+/app/ @Armor-test/squad-ml @Armor-test/grp-reporting
+/web/ @Armor-test/team-core @Armor-test/team-research
+/examples/ @Armor-test/dept-data @Armor-test/team-notifications
+/build/ @Armor-test/squad-database @Armor-test/dept-ui
+/services/ @Armor-test/unit-test @Armor-test/unit-devops
+/third_party/ @Armor-test/squad-qa @Armor-test/squad-frontend
+/controllers/ @Armor-test/unit-test @Armor-test/squad-ml
+/middleware/ @Armor-test/dept-ui @Armor-test/dept-identity @Armor-test/squad-tooling
+/spec/ @Armor-test/squad-performance @Armor-test/team-frontend @Armor-test/dept-data
+
+# File type ownership
+*.proto @Armor-test/dept-identity @Armor-test/dept-reporting
+*.graphql @Armor-test/squad-mobile @Armor-test/unit-test @Armor-test/squad-apps
+*.cpp @Armor-test/dept-test @Armor-test/grp-storage @Armor-test/grp-integration
+*.css @Armor-test/squad-reporting @Armor-test/dept-billing @Armor-test/grp-payments
+*.c @Armor-test/grp-api @Armor-test/squad-tooling
+*.json @Armor-test/squad-performance @Armor-test/team-logging
+*.sql @Armor-test/grp-storage @Armor-test/team-reporting
+*.kt @Armor-test/squad-reporting @Armor-test/unit-cloud
+*.go @Armor-test/squad-qa @Armor-test/dept-ui
+*.html @Armor-test/squad-payments @Armor-test/squad-mobile
+*.ts @Armor-test/dept-data @Armor-test/unit-design
+*.config @Armor-test/dept-test @Armor-test/unit-test
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
